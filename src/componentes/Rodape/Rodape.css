@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    height: 233px;
+    background-image: url('/public/imagens/fundo.png')
+    ;
+    background-color: #6278F7
+    ;
+    background-size: cover;
+    margin: 0;
+}
+footer .media-logos{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+footer .logo{
+    max-width: 100%;
+}
+
+footer .credits{
+    color: #fff;
+}
